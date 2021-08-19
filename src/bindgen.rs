@@ -8,7 +8,7 @@ use crate::cargo;
 use crate::pio::project::SconsVariables;
 use crate::utils::OsStrExt;
 
-pub const VAR_BINDINGS_FILE: &'static str = "CARGO_PIO_BINDGEN_RUNNER_BINDINGS_FILE";
+pub const VAR_BINDINGS_FILE: &'static str = "EMBUILD_GENERATED_BINDINGS_FILE";
 
 #[cfg(windows)]
 const EXE_SUFFIX: &'static str = ".exe";
